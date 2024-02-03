@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+      <div className="header">
+        <h1>Renegade Allstars</h1>
+        <h2>
+          Please fill out the form below to register your interest in joining
+          cheerleading with Renegade Allstars
+        </h2>
+      </div>
+      <div className="questionnaire">
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSeIKBRATRSoENhz71wDC_0Us-3paegZQH4a3Br5E_pbcOcPvg/viewform?embedded=true"
+          width="640"
+          height="1200"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
         >
-          Learn React
-        </a>
-      </header>
+          Loading…
+        </iframe>
+      </div>
     </div>
   );
 }
