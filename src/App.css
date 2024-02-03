@@ -19,6 +19,15 @@ h2 {
   font-size: 30px;
 }
 
+h3 {
+  font-family: "Dosis", sans-serif;
+  font-size: 25px;
+}
+
+a {
+  color: black;
+}
+
 .questionnaire {
   background-color: #dce0e6;
 }

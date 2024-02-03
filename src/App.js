@@ -9,6 +9,16 @@ function App() {
           Please fill out the form below to register your interest in joining
           cheerleading with Renegade Allstars
         </h2>
+        <h3>
+          If you have any questions, please email us at{" "}
+          <a
+            title="Renegade Allstars email address"
+            href="mailto:renegadeallstarsuk@gmail.com"
+          >
+            renegadeallstarsuk@gmail.com
+          </a>
+          .
+        </h3>
       </div>
       <div className="questionnaire">
         <iframe
