@@ -27,3 +27,24 @@ iframe {
   margin: 75px 0 0;
   background-color: #dce0e6;
 }
+
+@media (max-width: 575px) {
+  .header {
+    padding: 50px 20px;
+  }
+
+  h1 {
+    margin: 0 0 30px;
+    font-size: 100px;
+    line-height: 100px;
+  }
+
+  h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  iframe {
+    width: 90%;
+  }
+}
