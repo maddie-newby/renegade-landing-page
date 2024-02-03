@@ -12,6 +12,7 @@ function App() {
       </div>
       <div className="questionnaire">
         <iframe
+          title="questionnaire"
           src="https://docs.google.com/forms/d/e/1FAIpQLSeIKBRATRSoENhz71wDC_0Us-3paegZQH4a3Br5E_pbcOcPvg/viewform?embedded=true"
           width="640"
           height="1200"
