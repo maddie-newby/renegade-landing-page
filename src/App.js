@@ -30,6 +30,7 @@ function App() {
           frameborder="0"
           marginheight="0"
           marginwidth="0"
+          scrolling="no"
         >
           Loading…
         </iframe>
