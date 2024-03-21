@@ -1,10 +1,11 @@
 import "./App.css";
+import logo from "./images/logo.png";
 
 function App() {
   return (
     <div className="App">
       <div className="header">
-        <h1>Renegade Allstars</h1>
+        <img src={logo} alt="Renegade Allstars logo" />
         <h2>
           Please fill out the form below to register your interest in joining
           cheerleading with Renegade Allstars

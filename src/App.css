@@ -5,36 +5,52 @@
 .header {
   padding: 75px 20px 75px;
   text-align: center;
-  background-color: #c71b2f;
+  background-color: #000000;
 }
 
-h1 {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 150px;
-  margin: 0;
+@font-face {
+  font-family: "MetalLord";
+  src: local("MetalLord"), url(./fonts/MetalLord.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "AdvertisingScriptBold";
+  src: local("AdvertisingScriptBold"),
+    url(./fonts/AdvertisingScriptBold.ttf) format("truetype");
+}
+
+img {
+  height: 500px;
 }
 
 h2 {
+  margin-top: 0;
+  color: #be1e2d;
   font-family: "Dosis", sans-serif;
   font-size: 30px;
 }
 
 h3 {
+  margin-top: 0;
+  color: #be1e2d;
   font-family: "Dosis", sans-serif;
   font-size: 25px;
 }
 
 a {
-  color: black;
+  color: #be1e2d;
 }
 
 .questionnaire {
-  background-color: #dce0e6;
+  background-color: #565656;
 }
 
 iframe {
-  margin: 75px 0 0;
-  background-color: #dce0e6;
+  margin: 75px 0;
+  padding: 20px 0 0;
+  background-color: #aaaaaa;
+  box-shadow: 0 0 10px 10px #565656 inset;
+  max-height: 1050px;
 }
 
 @media (max-width: 575px) {
@@ -42,10 +58,8 @@ iframe {
     padding: 50px 20px;
   }
 
-  h1 {
-    margin: 0 0 30px;
-    font-size: 100px;
-    line-height: 100px;
+  img {
+    height: 300px;
   }
 
   h2 {
